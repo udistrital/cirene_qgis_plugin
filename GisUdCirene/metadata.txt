@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=GIS UDistrital Cirene
+qgisMinimumVersion=2.0
+description=This plugin is for create features to GIS
+version=0.1
+author=Jorge Ulises Useche Cuellar
+email=juusechec@correo.udistrital.edu.co
+
+about=GIS UD Cirene es un Sistema de Información Geográfica para la Universidad Distrital Francisco José de Caldas, que posibilita la gestión y administración pertinente de la planta física de la Universidad,además de otros aspectos relacionados con la planeación y control de la infraestructura física tales como facilitar las intervenciones en la infraestructura, uso, ocupación y asignación de espacios, su relación con diferentes actores y demás aspectos que afectan y transforman el estado de conservación de la infraestructura física de la Universidad.
+
+tracker=http://github.com/udistrital/
+repository=http://github.com/udistrital/cirene_qgis_plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=database, editing, feature, geometry, join, postgis
+
+homepage=http://sig.udistrital.edu.co/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
